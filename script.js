@@ -10,7 +10,7 @@ function addUser(name) {
   const userExists = users.some(user => user.name === name);
 
   if (userExists) {
-    console.log('Користувач з таким ім\'ям вже існує');
+    console.log('Користувач з таким ім'ям вже існує');
     return;
   }
 
